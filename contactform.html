@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+    <form action="/" method="GET">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="Name">Name</label></td>
+                    <td><input type="text" name="Name" id="Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                    <td><input type="Email" name="Email" id="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="Password" name="Password" id="Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td><input type="radio" name="Gender" id="Gender">Male</td>
+                    <td><input type="radio" name="Gender" id="Gender">Female</td>
+                </tr>
+                <tr>
+                   <td>
+                     <label for="Profession">Profession</label></td>
+                    <td>
+                        <select name="Profession" id="Profession">
+                        <option value="Govt Employee">Govt Employee</option>
+                        <option value="Sales Manager">Sales Manager</option>
+                        <option value="Student">Student</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Phone Number">Phone Number</label></td>
+                    <td><input type="tel" name="Phone Number" id="Phone Number"></td>
+                </tr>  
+                <tr>
+                    <td style="vertical-align: text-top;"><label for="Message">Message</label></td>
+                    <td><textarea name="Message" id="Message" cols="30" rows="6"></textarea></td>
+                    </tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="tnc" id="tnc">
+                        <label for="tnc">Terms and Conditions</label>
+                    </td> 
+                    <tr>
+                    <td><button type="reset">Reset</button></td>
+                    <td style="text-align: right;"><button type="submit">Submit</button></td>
+                </tr>
+            </tbody>
+        </table> 
+    </form>
+    
+</body>
+</html>
